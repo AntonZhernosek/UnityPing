@@ -1,5 +1,5 @@
 ### UnityPing
-Dotnet Ping has issues around working in builds and improperly resolving addresses. UnityEngine's Ping works well in builds, but it's primitive and needs wrappers to function properly. This extension wraps around Unity Engine's Ping, allowing it to resolve addresses, timeout, support async/await and return a meaningful UnityPingReply object from a ping attempt.\n
+Dotnet Ping has issues around working in builds and improperly resolving addresses. UnityEngine's Ping works well in builds, but it's primitive and needs wrappers to function properly. This extension wraps around Unity Engine's Ping, allowing it to resolve addresses, timeout, support async/await and return a meaningful UnityPingReply object from a ping attempt.
 All logged exceptions and Debug.Logs in the code are UnityEditor only.
 
 ### Example Usage
