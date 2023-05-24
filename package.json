@@ -1,0 +1,24 @@
+{
+  "name": "com.antonzhernosek.unityping",
+  "displayName": "Unity Ping",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "keywords": [
+    "unity",
+    "networking",
+    "ping",
+    "connectivity"
+  ],
+  "description": "Dotnet Ping produces various errors in resolving addresses and working in builds. UnityEngine.Ping works well in builds, but is very primitive and needs wrappers to work properly. This is a wrapper that helps UnityEngine's Ping resolve addresses, timeout, support async/await and return a meaningful object from pinging",
+  "author": {
+    "name": "Anton Zhernosek",
+    "email": "AntonZhernosekWork@gmail.com"
+  },
+  "samples": [
+    {
+        "displayName": "Network Connectivity Check",
+        "description": "A small test scene with a script to showcase how this extension can be used to check for internet connectivity",
+        "path": "Samples~/NetworkConnectivityCheck"
+    }
+  ]
+}
